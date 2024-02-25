@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+           
+            
+        }
+        .container {
+            max-width: 10000px;
+            margin: 0;
+            display: flex;
+            height: 100%;
+            
+            
+        }
+        .left-column {
+            flex: 0.3; /* width of the left column */
+            background-color: palevioletred;
+            flex-wrap: wrap;
+            text-align: justify;
+            font-size: 15px;
+           
+        }
+        
+        .right-column {
+            flex: 1; /* right column takes remaining space */
+            background-color: rgba(216, 112, 147, 0.692);
+            
+        }
+        header {
+            display: flex;
+            align-items: center; /* align items vertically */
+            margin-bottom: 20px;
+            
+        }
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%; /* Make the photo round */
+            object-fit: cover; /* Maintain aspect ratio */
+            margin-right: 20px;
+            margin-left: 30px;
+            border: 2px solid #000; /* Add border to the image */
+                
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+        }
+        h2, h3 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-top: 5px;
+            
+        }
+        .section {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        .para {
+            text-align: center;
+            font-size: 18px;
+        }
+        link{
+            transition: background-color 0.3s ease; /*for transition */
+        }
+        .link:hover {
+            color: rgba(0, 0, 0, 0.236); /* Change text color on hover */
+            cursor: pointer; /* Change cursor to pointer on hover */
+       }
+       .line-break {
+        border-bottom: 4px solid #333;
+        background-color: pink; /* Desired background color */
+        padding: 20px; /* Optional: Add padding to create space around content */
+        }
+        .Space {
+            padding-bottom: 70px;
+            padding-top: 20px;
+        }
+        .hed {
+            text-align: center;
+        }
+        .p{
+            font-size: 15px;
+        }
+       .line{
+        border-bottom: 2px solid #333;
+       }
+       .con{
+        padding-left: 400px;
+       }
+       ul {
+       text-align: justify; /* Center-align the list items */
+       list-style-position:inside; /* Move the bullets inside the list items */
+       
+       }
+       .co{
+        padding-left: 300px;
+       }
+       .photo-grid {
+       display: flex;
+       flex-wrap: wrap; /* Allow photos to wrap to the next row */
+      }
+
+      .photo {
+       width: 250px; /* Set each photo to occupy 25% of the container width for four columns */
+       padding: 4px; /* Add some spacing between photos */
+       box-sizing: border-box; /* Ensure padding is included in the width */
+       }
+
+      .photo img {
+       width: 100%; /* Make sure each image fills its container */
+       height: auto; /* Maintain aspect ratio */
+       border-radius: 20%;
+       }
+
+      
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <header>
+                <img src="maganda.jpg" alt="Your Name">
+            </header>
+            <div class = "Space">
+            <h2>PROFILE</h2>
+            <p><b>Address: </b><i>Brgy. Mabacan, Calauan, Laguna</i></p>
+            <p><b>Birthdate: </b><i>March 6, 2004</i></p>
+            <p><b>Birthplace: </b><i>Bay, Laguna</i></p>
+        </div>
+
+            <h2>CONTACT</h2>
+            <p><b>Cellphone Number: </b><i>09307942509</i></p>
+            <p><b>Gmail: </b><i>amidoshem@gmail.com</i></p>
+            <p><b>Institutional Account: </b><i>0322-1831@lspu.edu.ph</i></p>
+            <p><b>Messenger/Facebook: </b><a href="https://www.facebook.com/ISHEMQT"><span class = "link"><i>Ishem Amido</i></span></a></p>
+           
+
+           
+        </div>
+       
+        <div class="right-column">
+            <div class="line-break">
+            <h1>ISHEM IMBUTIN AMIDO</h1>
+            <div class = "para">
+            <p><i>Information Technology Student   </i></p>
+               <p><i>I consider myself an individual who thrives on challenges because, with each obstacle I encounter, I see an opportunity for growth. </i> </p>
+              
+            </div>
+            
+            </div>
+            <section class="section">
+                <div class = "hed">
+                <h2>EDUCATION</h2>
+               
+                <div class = "line"></div>
+                <h4>ELEMENTARY</h4>
+                <p><i>Mabacan Elementary School (2010-2016)</i> </p>
+                <h4>HIGHSCHOOL</h4>
+                <p><i>Dayap National Highschool Mabacan Annex (2016-2020)</i> </p>
+                <div class = "p">
+                <p><i><b>(With Honor and Perfect Attendance Awardee)</b></i></p>
+                </div>
+                <h4>SENIORHIGHSCHOOL</h4>
+                
+                <p><i>Trace College (2020-2022)</i></p>
+                <div class = "p">
+                <p><i><b>(With Honor)</b></i></p>
+                </div>
+                <h4>COLLEGE</h4>
+                
+                <p><i>Laguna State Polytechnic University (2022-tertiary)</i></p>
+
+            </div>
+            
+            </section>
+            
+            <div class = "line"></div>
+            <section class="section">
+                <div class = "hed">
+               <h2>Work Experience</h2>
+           
+                <div class = "line"></div>
+                <h3>Service Crew</h3>
+                <p> Mcdonald's Bay (tertiary)</p>
+            </div>
+            </section>
+            <div class = "line"></div>
+            <section class="section">
+                <div class = "hed">
+                <h2>Skills</h2>
+                <div class = "line"></div>
+                <div class = "con">
+                <ul><li>I can do household chores</li></ul>
+                <ul><li>I can do coding but still learning</li></ul>
+                <ul><li>I can play a lot of sports</li></ul>
+                <ul><li>I can write short stories</li></ul>
+                <ul><li>I can ride a motorcycle bike</li></ul>
+            </div> 
+                
+            </div>
+            </section>
+            <div class = "line"></div>
+            <section class="section">
+                <div class = "hed">
+                <h2>PROJECTS</h2>
+                <div class = "line"></div>
+                
+                <h3>"HELPING HANDS" CWTS Volunteer</h3>
+                <p><i><b>(Group 3 -  CONFIDENCE)</b></i></p>
+                <p>I participate in a group volunteer project of CWTS in Lspu San Pablo Campus. We, the group 3-Cofidence do some activity in Brgy St. Monica to help their community. 
+                </p>
+                <div class = "co">
+                <ul><li><b>ACTIVITY 1: </b>Bible Study <i>(APRIL 15, 2023)</i></ul>
+                <ul><li><b>ACTIVITY 2: </b>Learning/tutoring <i>(APRIL 22, 2023)</i></li></ul>
+                <ul><li><b>ACTIVITY 3: </b>Tree planting<i>(APRIL 29, 2023)</i></li></ul>
+                <ul><li><b>ACTIVITY 4: </b> Clean and Green<i>(MAY 06, 2023)</i></li></ul>
+                <ul><li><b>ACTIVITY 5: </b>Laro ng Lahi <i>(MAY 13, 2023)</i></li></ul>
+                <ul><li><b>ACTIVITY 6: </b>Food distribution <i>(MAY 13, 2023)</i></li></ul>
+            </div>
+            <div class="photo-grid">
+                <div class="photo"><img src="1.jpg" alt="Photo 1"></div>
+                <div class="photo"><img src="2.jpg" alt="Photo 2"></div>
+                <div class="photo"><img src="3.jpg" alt="Photo 3"></div>
+                <div class="photo"><img src="clean.jpg" alt="Photo 3"></div>
+                <div class="photo"><img src="play.jpg" alt="Photo 3"></div>
+                <div class="photo"><img src="feed.jpg" alt="Photo 3"></div>
+                <div class="photo"><img src="us.jpg" alt="Photo 3"></div>
+                <div class="photo"><img src="kid.jpg" alt="Photo 3"></div>
+                
+                
+              </div>
+            </div>
+
+            </section>
+            
+        </div>
+    </div>
+</body>
+</html>
